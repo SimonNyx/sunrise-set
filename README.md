@@ -22,7 +22,8 @@ Set the following crontab entries.
 
 15 0-23/3 \* \* \* /usr/bin/python3 /usr/bin/sunrise-set.py # Runs every 3 hours
 
-Note:
-If this doesn't run on cron correctly you might need to preface it with
+Note: If this doesn't run on cron correctly you might need to preface it with
+
 SHELL=/bin/bash
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin
